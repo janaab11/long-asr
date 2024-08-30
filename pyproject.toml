@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "long_asr"
+version = "0.1.0"
+description = "ASR pipelines for long-form speech"
+authors = ["Manas <manas.gooner11@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+jupyter = "^1.0.0"
+pdfplumber = "^0.11.4"
+pandas = "^2.2.2"
+tqdm = "^4.66.5"
+num2words = "^0.5.13"
+plotly = "^5.24.0"
+datasets = "^2.21.0"
+evaluate = "^0.4.2"
+huggingface-hub = "^0.24.6"
+transformers = "^4.44.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
